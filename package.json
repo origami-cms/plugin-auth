@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Authentication plugin for the Origami platform",
   "main": "build/index.js",
-  "repository": "https://github.com/origami-cms/plugin-spa",
+  "repository": "https://github.com/origami-cms/plugin-auth",
   "author": "Tristan Matthias <hello@tristanmathias.com>",
   "license": "MIT",
   "typings": "build/index.d.ts",
