@@ -1,7 +1,7 @@
 import {Origami, auth as authLib} from 'origami-core-lib';
 import Server from 'origami-core-server';
 
-const auth: Origami.Server.RequestHandler = async (req, res, next) => {
+const Auth: Origami.Server.RequestHandler = async (req, res, next) => {
     try {
         const head = req.headers.authorization;
 
@@ -34,7 +34,7 @@ const auth: Origami.Server.RequestHandler = async (req, res, next) => {
 };
 
 
-module.exports = (server: Server) => {
-    server.namedMiddleware('auth', auth);
+export default (server: Server) => {
+    server.namedMiddleware('auth', Auth);
 };
-module.exports.auth = auth;
+export const auth = Auth;
