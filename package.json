@@ -11,10 +11,10 @@
     "build": "tsc"
   },
   "dependencies": {
-    "origami-core-lib": "^0.3.9",
-    "origami-core-server": "^0.3.3"
+    "origami-core-lib": "^0.3.13-alpha.7"
   },
   "devDependencies": {
+    "origami-core-server": "^0.5.3-alpha.3",
     "tslint": "^5.9.1",
     "tslint-config-origami": "^1.0.3",
     "typescript": "^2.8.3"
